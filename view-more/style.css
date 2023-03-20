@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  /* padding-top: 1.25rem 0; */
+  position: relative;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20rem;
+  padding: 1rem;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 10px 20px;
+}
+/* --------------------MAIN------------------- */
+
+.first {
+  background-image: url(https://img.freepik.com/free-vector/night-rustic-meadow-landscape-rural-field-river-dirt-road-dark-blue-starry-sky-with-full-moon-stars-reflecting-water-farmland-scenery-countryside-nature-cartoon-vector-background_107791-11063.jpg?w=1380&t=st=1679245959~exp=1679246559~hmac=30cab86f1b5b9f847141dc0c6ea01cf6f699cd3137194590f3510a844dadf9ce);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: top;
+  height: 600px;
+  width: 100%;
+}
+.first-details {
+  color: white;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 30%;
+  padding: 80px 40px;
+  font-family: "Poppins", sans-serif;
+}
+.p1 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.p3 {
+  color: rgb(220, 218, 218);
+}
+.first-details .h1 {
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.read-story {
+  display: flex;
+  gap: 10px;
+  text-transform: uppercase;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.four-img-1 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1566241492959-43d940bc2ae1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnRhaW4lMjB0b3B8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: top;
+  height: 600px;
+  width: 100%;
+}
+.four-img-2 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1633190161114-d37445bde0ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjV8fHNreSUyMHNjcmFwZXJzfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: top;
+  height: 600px;
+  width: 100%;
+}
+.four-img-3 {
+  columns: 1;
+  background-image: url(https://images.pexels.com/photos/3010247/pexels-photo-3010247.jpeg?cs=srgb&dl=pexels-ave-calvar-martinez-3010247.jpg&fm=jpg);
+  background-size: cover;
+  background-position: top;
+  height: 600px;
+  width: 100%;
+}
+.four-img-4 {
+  columns: 1;
+  background-image: url(https://cortusadvisory.co.uk/wp-content/uploads/2021/05/why-cortus-9.png);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.four-img-5 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1511831030-bec461ccd88e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnRhaW5zJTIwQU5EJTIwTEFLRXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.four-img-6 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1520262494112-9fe481d36ec3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHN1biUyMGJlaGluZCUyMHRyZWV8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.four-img-7 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1511216113906-8f57bb83e776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdoaXRlJTIwbGlvbnxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.four-img-8 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1444492417251-9c84a5fa18e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHJlZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.four-img-9 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1497449493050-aad1e7cad165?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3Vuc2V0JTIwd2F2ZXN8ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.four-img-10 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1598362042346-70c59713811f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG9yc2VzfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.four-img-11 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1559962219-f52ccd86944e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2F2ZXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.four-img-12 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1508913449378-01b9b8174e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGRhd24lMjBtb3VudGFpbnxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.four-img-13 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1580432551600-8c9768628a9e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGdhbGF4eXxlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.four-img-14 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1613125700782-8394bec3e89d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fG1vdW50YWluc3xlbnwwfDF8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.four-img-15 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1661142175513-a5f0871f1ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fG1hcmlnb2xkfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.four-img-16 {
+  columns: 1;
+  background-image: url(https://images.unsplash.com/photo-1579043043583-a8c5cd70f404?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHRvd2VyfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+
+.four-details {
+  color: white;
+  margin-top: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 50px;
+}
+
+.story {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+}
+.four-details .h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+/* -------------------------------------------------- */
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 100px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 80px;
+}
+.group {
+  display: flex;
+  justify-content: space-between;
+  gap: 170px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.invite-footer {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.copyright {
+  color: gray;
+  position: absolute;
+  left: 80%;
+  top: 70%;
+}
